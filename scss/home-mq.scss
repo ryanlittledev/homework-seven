@@ -1,0 +1,148 @@
+@media only all and (max-width: 1323px) {
+    hero{
+        margin: 20px;
+    }
+ 
+    }
+
+
+@media only all and (max-width: 1171px) {
+    nav{
+        position: absolute;
+        
+    }
+
+}
+  @media only all and (max-width: 630px) {
+    .home-tours  {
+        display: block;
+
+        .holder-image{
+            margin-bottom: 75px;
+        }
+
+        .holder-image2{
+            margin-bottom: 75px;
+        }
+    }
+    
+
+  }
+  @media only all and (max-width: 850px) {
+    .booking-form {
+      padding: 50px;
+    }
+    .booking-form .input-wrapper-three {
+      margin-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .booking-form .input-wrapper-four {
+      margin-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .booking-form .input-wrapper-five .icon1 {
+      display: none;
+    }
+    .booking-form .input-wrapper-five .icon2 {
+      display: none;
+    }
+    .booking-form .input-wrapper-five .icon3 {
+      display: none;
+    }
+  }
+  @media only all and (max-width: 815px) {
+    .booking-form {
+      padding: 30px;
+    }
+    .booking-form .input-wrapper-three {
+      margin-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .booking-form .input-wrapper-four {
+      margin-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .booking-form .input-wrapper-five .icon1 {
+      display: none;
+    }
+    .booking-form .input-wrapper-five .icon2 {
+      display: none;
+    }
+    .booking-form .input-wrapper-five .icon3 {
+      display: none;
+    }
+  }
+  @media only all and (max-width: 700px) {
+    .booking-form {
+      padding: 10px;
+    }
+    .booking-form .input-wrapper-three {
+      margin-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .booking-form .input-wrapper-four {
+      margin-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+    }
+    .booking-form .input-wrapper-five {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .booking-form .input-wrapper-five .adult-holder {
+      margin-bottom: 20px;
+    }
+    .booking-form .input-wrapper-five .children-holder {
+      margin-bottom: 20px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    .booking-form .input-wrapper-five .rooms-holder {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    .booking-form .input-wrapper-five .icon1 {
+      display: none;
+    }
+    .booking-form .input-wrapper-five .icon2 {
+      display: none;
+    }
+    .booking-form .input-wrapper-five .icon3 {
+      display: none;
+    }
+  }
+
+  
+  @media only all and (max-width: 1335px) {
+    footer {
+      margin: 20px;
+    }
+    
+  }
+ 
+  @media only all and (max-width: 510px) {
+    footer .centered-content {
+      flex-direction: column;
+    }
+  }

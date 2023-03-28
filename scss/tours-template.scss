@@ -1,0 +1,84 @@
+.tours-hero-template {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    @include background-image-format;
+
+    .background{
+        background: linear-gradient(45deg,
+        rgba(0, 0, 0, 0.40),
+        rgba(0, 0, 0, 0.40));
+        @include background-image-format;
+        height: 413px;
+        width: 980px;
+    }
+
+    .tourPackage{
+        color: white;
+        position: absolute;
+        top: 150px;
+        left: 200px;
+        font-size: 80px;
+    }
+
+    .prices{
+        color: white;
+        position: absolute;
+        top: 500px;
+        right: 175px;
+        font-size: 30px;
+    }
+    
+  }
+  
+  
+  .images {
+    max-width: 980px;
+    height: 347px;
+    margin: 0 auto;
+
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .image{
+        height: 347px;
+        width: 298px;
+    }
+  }
+    
+  
+  .day {
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    .header {
+        font-size: 60px;
+      }
+      .border {
+        border-bottom: 2px solid black;
+        width: 13%;
+      }
+  }
+  
+
+
+  .button {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 133px;
+    margin: 0 auto;
+  }
+  .button button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    background-color: $site-blue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }

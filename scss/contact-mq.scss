@@ -1,0 +1,23 @@
+@media only all and (max-width: 1010px) {
+    .contact-header {
+      width: 400px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  
+    .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      
+    }
+  }
+  @media only all and (max-width: 560px) {
+    .contact-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+  }

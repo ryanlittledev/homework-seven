@@ -1,0 +1,94 @@
+.contact-header{
+
+    .header{
+        font-size: 30px;
+        padding-left: 100px;
+        position: relative;
+        letter-spacing: 5px;    
+        }
+
+    
+    .border{
+    border-bottom: 2px solid black;
+    width: 16%;
+    position: absolute;
+    left: 100px;
+    bottom: -7px;
+        }
+    } 
+  
+  .contact-section {
+    max-width: 980px;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .map-section {
+        max-width: 400px;
+        .map {
+            background-image: url(../images/map.jpg);
+            @include background-image-format;
+            width: 400px;
+            height: 442px;
+        .address {
+            width: 400px;
+            height: 161px;
+            
+            p {
+                font-size: 18px;
+                font-family: GillSansLight;
+                letter-spacing: 1px;
+              }
+        }
+    }
+    }
+
+    .form-section {
+        max-width: 529px;
+                display: block;
+                justify-content: space-evenly;
+                
+      }
+      
+      .input-wrapper {
+        width: 100%;
+
+        .name-field {
+            width: 100%;
+            padding: 20px;
+            border: none;
+            background-color: #F5F5F5;
+            font-size: 16px;
+            margin-bottom: 22px;
+          }
+          .message-field {
+            width: 100%;
+            height: 199px;
+            padding-bottom: 140px;
+            padding-left: 20px;
+            border: none;
+            background-color: #F5F5F5;
+            font-size: 16px;
+            margin-bottom: 20px;
+          }
+      }
+
+      .send-button {
+        width: 529px;
+
+        button {
+            height: 60px;
+            width: 167px;
+            padding: 10px;
+            background-color: #79ADDC;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+          }
+
+      }
+
+  }
